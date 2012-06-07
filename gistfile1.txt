@@ -1,0 +1,5 @@
+resources :lawfirms, :only => [ :show, :new, :create, :lawyer ] do
+    collection do
+      get  :lawyers
+    end
+  end
